@@ -1,6 +1,7 @@
-describe "Something" do
+require './lib/app'
 
-  it "is an apple" do
-    "asdf".should eq("asdf")
+describe "Something" do
+  it "should be defined" do
+    App.should_not be_nil
   end
 end
