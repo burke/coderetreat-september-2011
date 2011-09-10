@@ -1,3 +1,3 @@
-class App
- 
+class Universe
+
 end
